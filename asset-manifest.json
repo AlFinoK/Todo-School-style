@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/alfinok.github.io/Todo-School-style/static/css/main.333680d5.css",
-    "main.js": "/alfinok.github.io/Todo-School-style/static/js/main.82db17db.js",
-    "index.html": "/alfinok.github.io/Todo-School-style/index.html",
-    "main.333680d5.css.map": "/alfinok.github.io/Todo-School-style/static/css/main.333680d5.css.map",
-    "main.82db17db.js.map": "/alfinok.github.io/Todo-School-style/static/js/main.82db17db.js.map"
+    "main.css": "/Todo-School-style/static/css/main.333680d5.css",
+    "main.js": "/Todo-School-style/static/js/main.82db17db.js",
+    "index.html": "/Todo-School-style/index.html",
+    "main.333680d5.css.map": "/Todo-School-style/static/css/main.333680d5.css.map",
+    "main.82db17db.js.map": "/Todo-School-style/static/js/main.82db17db.js.map"
   },
   "entrypoints": [
     "static/css/main.333680d5.css",
