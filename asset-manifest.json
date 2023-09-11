@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Todo-School-style/static/css/main.da866ed9.css",
+    "main.css": "/Todo-School-style/static/css/main.957caaaf.css",
     "main.js": "/Todo-School-style/static/js/main.77b5e46d.js",
     "index.html": "/Todo-School-style/index.html",
-    "main.da866ed9.css.map": "/Todo-School-style/static/css/main.da866ed9.css.map",
+    "main.957caaaf.css.map": "/Todo-School-style/static/css/main.957caaaf.css.map",
     "main.77b5e46d.js.map": "/Todo-School-style/static/js/main.77b5e46d.js.map"
   },
   "entrypoints": [
-    "static/css/main.da866ed9.css",
+    "static/css/main.957caaaf.css",
     "static/js/main.77b5e46d.js"
   ]
 }
