@@ -28,7 +28,7 @@ const App = () => {
         <TodoList todos={todos} deleteTodo={deleteTodoHandler} />
       </div>
       <a className="signature" href="https://github.com/AlFinoK" target="_blank">
-        Nikita Rudenko's project
+        Nikita Rudenko's projects
       </a>
     </>
   )
