@@ -1,23 +1,33 @@
 .item {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   overflow-x: hidden;
   word-wrap: break-word;
   width: 100%;
-  padding: 25px 20px 15px 30px;
   max-width: 400px;
-  border-radius: 50% 50% 50% 50% / 90% 90% 10% 10%;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px dashed green;
 }
 
-.box {
+.todo {
   position: relative;
   display: flex;
   align-items: center;
   max-width: 500px;
+  margin-bottom: 33px;
+}
+.todo:last-child {
+  margin-bottom: 70px;
 }
 
 .icons {
   margin-left: 70px;
+}
+
+.completedTodo {
+  text-decoration: line-through double red;
+}
+.completedTodo .item {
+  padding-bottom: 2px;
+  border-bottom: none;
 }
 
 .todoIcon {

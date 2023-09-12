@@ -1,0 +1,25 @@
+.button {
+  height: 50px;
+  cursor: pointer;
+  padding: 0 10px;
+  color: green;
+}
+.button {
+  margin: 0 15px;
+  color: green;
+  transition: color 0.2s;
+}
+
+.button:nth-child(1):hover {
+  border-radius: 59% 41% 70% 30% / 30% 30% 70% 70%;
+  border: 2px solid blue;
+  color: blue;
+  margin: 0 13px;
+}
+
+.button:nth-child(2):hover {
+  border-radius: 59% 41% 70% 30% / 30% 30% 70% 70%;
+  border: 2px solid red;
+  color: red;
+  margin: 0 13px;
+}
