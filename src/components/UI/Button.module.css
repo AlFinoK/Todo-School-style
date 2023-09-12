@@ -3,11 +3,7 @@
   cursor: pointer;
   padding: 0 10px;
   color: green;
-}
-.button {
   margin: 0 15px;
-  color: green;
-  transition: color 0.2s;
 }
 
 .button:nth-child(1):hover {
@@ -22,4 +18,14 @@
   border: 2px solid red;
   color: red;
   margin: 0 13px;
+}
+
+.button:disabled {
+  color: rgb(1, 63, 1);
+}
+
+.button:disabled:hover {
+  border: none;
+  color: rgb(1, 63, 1);
+  margin: 0 15px;
 }

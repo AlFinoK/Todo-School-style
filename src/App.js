@@ -34,20 +34,30 @@ const App = () => {
     setTodos([])
   }
 
-  const clearCompletedTodosHandler = (id) => {
+  const clearCompletedTodosHandler = () => {
     setTodos(todos.filter((todo) => !todo.isCompleted))
   }
+
+  const completedTodosCount = todos.filter((todo) => todo.isCompleted).length
 
   return (
     <>
       <div className="wrapper">
         <h1 className="title">Todo App</h1>
         <TodoForm addTodo={addTodoHandler} />
-        <TodosActions
-          resetTodos={resetTodosHandler}
-          clearCompletedTodos={clearCompletedTodosHandler}
+        {!!todos.length && (
+          <TodosActions
+            resetTodos={resetTodosHandler}
+            clearCompletedTodos={clearCompletedTodosHandler}
+            completedTodosExist={!!completedTodosCount}
+          />
+        )}
+        <TodoList
+          completedTodosExist={completedTodosCount}
+          toggleTodo={toggleTodoHandler}
+          todos={todos}
+          deleteTodo={deleteTodoHandler}
         />
-        <TodoList toggleTodo={toggleTodoHandler} todos={todos} deleteTodo={deleteTodoHandler} />
       </div>
       <a className="signature" href="https://github.com/AlFinoK" target="blank">
         Nikita Rudenko's project

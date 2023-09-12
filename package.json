@@ -1,6 +1,6 @@
 {
   "homepage": "https://alfinok.github.io/Todo-School-style",
-  "name": "todo",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

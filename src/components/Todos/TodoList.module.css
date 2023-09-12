@@ -2,6 +2,13 @@
   text-align: center;
   font-size: 2.5rem;
   color: red;
-  margin-bottom: 91px;
+  margin-bottom: 87px;
   padding-top: 51px;
+}
+
+.emptyCompleted {
+  color: green;
+  font-size: 2rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
